@@ -1,9 +1,14 @@
 import { Outlet } from "react-router-dom";
 
+import MainNavigation from "../components/MainNavigation";
+
 function Layout() {
+  return (
     <>
-        <Outlet />
+        <MainNavigation />
+      <Outlet />
     </>
+  );
 }
 
 export default Layout;

@@ -1,13 +1,11 @@
 import { NavLink } from "react-router-dom";
 
-import navImage from '../../public/logo192.png';
+import navImage from '../assets/images/logo192.png';
 
 function MainNavigation() {
     return (
         <div className="navigation-container">
-            <div className="nav-image-wrapper">
-                <img src={navImage} alt='' />
-            </div>
+            <h1>Homer J. Simpson</h1>
 
             <div className="nav-links-wrapper">
                 <NavLink to='/' end>Home</NavLink>
