@@ -32,6 +32,12 @@ function MainNavigation() {
         >
           Projects
         </NavLink>
+        <NavLink
+          to="/login"
+          className={({ isActive }) => isActive && "nav-link-active"}
+        >
+          Login
+        </NavLink>
       </div>
     </div>
   );
