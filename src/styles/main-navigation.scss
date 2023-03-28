@@ -20,12 +20,20 @@
             color: brown;
             text-decoration: none;
             font-size: 1.4em;
+            border-bottom: 1px solid transparent;
             transition: 0.4s ease-in-out;
 
             &:hover {
                 color: gold;
                 cursor: pointer;
             }
+
+            
+        }
+
+        .nav-link-active {
+            color: blue;
+            border-bottom: 1px solid blue;
         }
     }
 }
